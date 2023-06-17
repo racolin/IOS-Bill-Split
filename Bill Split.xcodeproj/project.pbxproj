@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		C35792052A3B975E00A08D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792042A3B975E00A08D3F /* AppDelegate.swift */; };
 		C35792072A3B975E00A08D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792062A3B975E00A08D3F /* SceneDelegate.swift */; };
-		C35792092A3B975E00A08D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792082A3B975E00A08D3F /* ViewController.swift */; };
+		C35792092A3B975E00A08D3F /* BillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792082A3B975E00A08D3F /* BillController.swift */; };
 		C357920C2A3B975E00A08D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C357920A2A3B975E00A08D3F /* Main.storyboard */; };
 		C357920E2A3B976000A08D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C357920D2A3B976000A08D3F /* Assets.xcassets */; };
 		C35792112A3B976000A08D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C357920F2A3B976000A08D3F /* LaunchScreen.storyboard */; };
 		C357921C2A3B976100A08D3F /* Bill_SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357921B2A3B976100A08D3F /* Bill_SplitTests.swift */; };
 		C35792262A3B976100A08D3F /* Bill_SplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792252A3B976100A08D3F /* Bill_SplitUITests.swift */; };
 		C35792282A3B976100A08D3F /* Bill_SplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792272A3B976100A08D3F /* Bill_SplitUITestsLaunchTests.swift */; };
+		C35792382A3B97A900A08D3F /* BillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792372A3B97A900A08D3F /* BillModel.swift */; };
+		C357923A2A3B993E00A08D3F /* BillBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35792392A3B993E00A08D3F /* BillBrain.swift */; };
+		C39490C92A3D858200C7D0F2 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39490C82A3D858200C7D0F2 /* ResultController.swift */; };
+		C39490CB2A3D879800C7D0F2 /* ResultBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39490CA2A3D879800C7D0F2 /* ResultBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		C35792012A3B975E00A08D3F /* Bill Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bill Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35792042A3B975E00A08D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35792062A3B975E00A08D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C35792082A3B975E00A08D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C35792082A3B975E00A08D3F /* BillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillController.swift; sourceTree = "<group>"; };
 		C357920B2A3B975E00A08D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C357920D2A3B976000A08D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35792102A3B976000A08D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		C35792212A3B976100A08D3F /* Bill SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SplitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35792252A3B976100A08D3F /* Bill_SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_SplitUITests.swift; sourceTree = "<group>"; };
 		C35792272A3B976100A08D3F /* Bill_SplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_SplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C35792372A3B97A900A08D3F /* BillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillModel.swift; sourceTree = "<group>"; };
+		C35792392A3B993E00A08D3F /* BillBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillBrain.swift; sourceTree = "<group>"; };
+		C39490C82A3D858200C7D0F2 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		C39490CA2A3D879800C7D0F2 /* ResultBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,11 @@
 		C35792032A3B975E00A08D3F /* Bill Split */ = {
 			isa = PBXGroup;
 			children = (
+				C35792362A3B977A00A08D3F /* Model */,
 				C35792042A3B975E00A08D3F /* AppDelegate.swift */,
 				C35792062A3B975E00A08D3F /* SceneDelegate.swift */,
-				C35792082A3B975E00A08D3F /* ViewController.swift */,
-				C357920A2A3B975E00A08D3F /* Main.storyboard */,
+				C35792352A3B977100A08D3F /* Controller */,
+				C35792342A3B976A00A08D3F /* View */,
 				C357920D2A3B976000A08D3F /* Assets.xcassets */,
 				C357920F2A3B976000A08D3F /* LaunchScreen.storyboard */,
 				C35792122A3B976000A08D3F /* Info.plist */,
@@ -125,6 +134,33 @@
 				C35792272A3B976100A08D3F /* Bill_SplitUITestsLaunchTests.swift */,
 			);
 			path = "Bill SplitUITests";
+			sourceTree = "<group>";
+		};
+		C35792342A3B976A00A08D3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C357920A2A3B975E00A08D3F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C35792352A3B977100A08D3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C35792082A3B975E00A08D3F /* BillController.swift */,
+				C39490C82A3D858200C7D0F2 /* ResultController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C35792362A3B977A00A08D3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C35792372A3B97A900A08D3F /* BillModel.swift */,
+				C35792392A3B993E00A08D3F /* BillBrain.swift */,
+				C39490CA2A3D879800C7D0F2 /* ResultBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35792092A3B975E00A08D3F /* ViewController.swift in Sources */,
+				C35792092A3B975E00A08D3F /* BillController.swift in Sources */,
 				C35792052A3B975E00A08D3F /* AppDelegate.swift in Sources */,
+				C39490C92A3D858200C7D0F2 /* ResultController.swift in Sources */,
+				C35792382A3B97A900A08D3F /* BillModel.swift in Sources */,
+				C357923A2A3B993E00A08D3F /* BillBrain.swift in Sources */,
 				C35792072A3B975E00A08D3F /* SceneDelegate.swift in Sources */,
+				C39490CB2A3D879800C7D0F2 /* ResultBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
